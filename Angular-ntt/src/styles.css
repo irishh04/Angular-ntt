@@ -1,0 +1,31 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer utilities {
+	.paused{ 
+	animation-play-state:paused;
+}
+}
+@keyframes typing {
+	from {
+	  width: 0;
+	}
+	to {
+	  width: 100%;
+	}
+  }
+  
+  .animate-typing {
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 4px solid white; /* You can adjust the border styles */
+	padding-right: 5px;
+	font-size: 5xl;
+	animation: typing 3s steps(30, end) infinite; /* Adjust the animation duration as needed */
+  }  
+  
+  
