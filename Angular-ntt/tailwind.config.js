@@ -5,7 +5,7 @@ module.exports = {
     './public/index.html',   // Add other relevant file paths
   ],
   theme: {
-    extend: {},
+    extend: {colors:{"custom-primary":"#00C6B3", "custom-accent":"#686995", "custom-accent-hover":"#445A7E","custom-bg": "#111827", "custom-bg-light" : "#244A64", "custom-text": "#EBFBFF"}},
   },
   plugins: [
     require('taos/plugin')
