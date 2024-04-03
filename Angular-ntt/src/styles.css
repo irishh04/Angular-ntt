@@ -4,6 +4,7 @@
 @import 'tailwindcss/utilities';
 
 
+
 @layer utilities {
 	.paused{ 
 	animation-play-state:paused;

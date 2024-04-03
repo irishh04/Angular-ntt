@@ -88,25 +88,36 @@
 
 
 <!-- the ceo -->
-        <div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden dark:bg-custom-bg">
-            <div class="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
-                <div class="w-full md:w-1/2 lg:pr-32">
-                    <h2 class="text-4xl lg:text-5xl text-center md:text-left text-custom-text leading-tight font-medium">MEET THE CEO</h2>
-                    <h3
-                        class="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-custom-text font-light tracking-wider leading-relaxed">
-                        NorthTriamTech Inc. is built to serve our fellow Entrepreneurs in MSME. We aim to be your main partner to help you hand in hand towards addressing the technology backlogs of your business processes and to assure a smooth transformation of your company from conventional to digital.
-                        
-                    </h3>
-                    <div class="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
-                        <button class="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-500 text-white border-2 border-blue-500">Get started</button>
-                        <button class="w-full mt-4 sm:mt-0 sm:ml-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-white text-blue-500 border-2 border-gray-500">Watch a Demo</button>
-                    </div>
+<div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-custom-bg-light dark:bg-gray-900]">
+    <!-- Themes: blue, purple and teal -->
+    <div data-theme="teal" class="mx-auto max-w-6xl">
+      <h2 class="sr-only">Featured case study</h2>
+      <section class="font-sans text-custom-text">
+        <div class="[ lg:flex lg:items-center ] [ fancy-corners fancy-corners--large fancy-corners--top-left fancy-corners--bottom-right ]">
+          <div class="flex-shrink-0 self-stretch sm:flex-basis-40 md:flex-basis-50 xl:flex-basis-60">
+            <div class="h-full">
+              <article class="h-full">
+                <div class="h-full">
+                  <img class="h-[450px] object-cover  transform  hover:scale-105 transition ease-in-out " [src]="sirjap" alt='""' typeof="foaf:Image" />
                 </div>
-                <div class="w-full md:w-1/2 flex justify-center md:justify-end">
-                    <img [src]="sirjap" class="h-[480px]">
-                </div>
+              </article>
             </div>
+          </div>
+          <div class="p-6 bg-grey">
+            <div class="leading-relaxed">
+              <h2 class="leading-tight text-4xl font-bold text-custom-primary">Message from the CEO</h2>
+              <p class="mt-4">NorthTriamTech Inc. is built to serve our fellow Entrepreneurs in MSME. We aim to be your main partner to help you hand in hand towards addressing the technology backlogs of your business processes and to assure a smooth transformation of your company from conventional to digital.</p>
+              <p class="mt-4">We at NorthTriamTech Inc. believes that the direction of your business matters most together with it’s speed.
+              </p>
+              <!-- <img src="./assets/img/sign.png" class="h-12 mt-5"> -->
+              <p class="mt-10 ">Julian Arnel Paulo Sia<br>  Chief Executive Officer</p>
+            </div>
+          </div>
         </div>
+      </section>
+    </div>
+  </div>
+  
 
  
 
@@ -528,7 +539,6 @@
   </div>
 </section>
 
-
 <section class="bg-white dark:bg-gray-900">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6 aos-init aos-animate" data-aos="fade-up"
   data-aos-duration="1000" >
@@ -538,14 +548,14 @@
       </div> 
       
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <div class="text-center text-white">
+          <div class="text-center dark:text-gray-400 text-white">
               <img class="mx-auto mb-4 w-36 h-36 rounded-full  transform hover:bg-orange-600 hover:scale-105 transition ease-in-out"[src]="Jap" alt="Julian Arnel Paulo Sia">
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Julian Arnel Paulo Sia</a>
               </h3>
-              <p>CEO/Co-founder</p>
+              <p>CHIEF EXECUTIVE OFFICER</p>
               <ul class="flex justify-center mt-4 space-x-4">
-                  <li>
+                <li>
                       <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
                           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                       </a>
@@ -1035,4 +1045,6 @@
           </div>
       </div>  
   </div>
+  
 </section>
+
